@@ -18,33 +18,33 @@ void conversion(int op)
 {
     switch (op)
     {
-    case 1:
+        case 1:
 
-        printf("Enter value in kms. :");
-        scanf("%f",&km);
-        miles = 0.62137*km;
-        printf("%0.2f kms = %f miles\n\n",km,miles);
-        break;
-    
-    case 2:
+            printf("Enter value in kms. :");
+            scanf("%f",&km);
+            miles = 0.62137*km;
+            printf("%0.2f kms = %f miles\n\n",km,miles);
+            break;
         
-        printf("Enter value in inch. :");
-        scanf("%f",&inch);
-        feet = inch/12;
-        printf("%0.2f inch = %f feet\n\n",inch,feet);
-        /* code */
-        break;
+        case 2:
+            
+            printf("Enter value in inch. :");
+            scanf("%f",&inch);
+            feet = inch/12;
+            printf("%0.2f inch = %f feet\n\n",inch,feet);
+            /* code */
+            break;
+            
+        case 3:
+            /* complete the code */
+            break;
+            
+        case 4:
+            /* complete the code */
+            break;
         
-    case 3:
-        /* code */
-        break;
-        
-    case 4:
-        /* code */
-        break;
-    
-    default: printf("Wrong option selected!\n");
-        break;
+        default: printf("Wrong option selected!\n");
+            break;
     }
 }
 
